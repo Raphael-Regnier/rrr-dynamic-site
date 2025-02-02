@@ -19,14 +19,14 @@ collections:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Image Alt Text", name: "imageAlt", widget: "string" }
       - name: "about"
-      label: "About Section"
-      file: "src/_data/about.json"  # Create this file
-      fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Paragraph 01", name: "paragraph01", widget: "text"}
-      - { label: "Paragraph 02", name: "paragraph02", widget: "text", required: false }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Image Alt Text", name: "imageAlt", widget: "string" }
+        label: "About Section"
+        file: "src/_data/about.json"  # Create this file
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Paragraph 01", name: "paragraph01", widget: "text"}
+          - { label: "Paragraph 02", name: "paragraph02", widget: "text", required: false }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Image Alt Text", name: "imageAlt", widget: "string" }
   - name: "blog"
     label: "Blog"
     folder: "src/blog"
